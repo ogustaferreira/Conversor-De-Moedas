@@ -42,3 +42,32 @@ body>img {
 img {
     max-height: 250px;
 }
+
+input[type=number] {
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
